@@ -55,6 +55,7 @@ class ParseFetches():
 
         # --- DQZ Extraction ---
         dqz_mask = df_split[1] == 'DQZ'
+        print(df.loc[dqz_mask])
         df.loc[dqz_mask, 'DQZ_Press'] = df_split.loc[dqz_mask, 6].astype(float)*0.1
         df.loc[dqz_mask, 'DQZ_Temp'] = df_split.loc[dqz_mask, 7].str.split('*').str[0].astype(float)
 
@@ -101,8 +102,8 @@ class ParseFetches():
         df.loc[azs_mask, 'AZS_Temp_Low'] = df_split.loc[azs_mask, 13].astype(float)
             
         # Optional: Fill gaps so every timestamp has the most recent sensor value
-        self.df_continuous = df.ffill()
+        #self.df_continuous = df.ffill()
         
-        return(self.df_continuous)
+        return(self.df)
 
     
