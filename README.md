@@ -8,8 +8,8 @@ Jupyter notebooks for accessing and processing bottom pressure recorder (BPR) da
 
 ```
 BarkleyCanyon_Cabled/
-├── BPR_Zero_Cabled_AS.ipynb            # Main BPR|Zero workflow: download, drift analysis, AZA calibration
-├── BPR_Zero_Cabled_AS_getLogFiles.ipynb # Download raw archive log files for BPR|Zero
+├── BPR_Zero_Cabled.ipynb            # Main BPR|Zero workflow: download, drift analysis, AZA calibration
+├── BPR_Zero_Cabled_getLogFiles.ipynb # Download raw archive log files for BPR|Zero
 ├── SonardyneFetch.ipynb                # Download and parse Sonardyne Fetch serial data
 ├── ParseFetches.py                     # Reusable class for fetching and parsing Sonardyne Fetch data
 └── README.md
