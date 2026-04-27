@@ -51,7 +51,7 @@ pip install onc requests requests-cache pandas numpy scipy matplotlib python-dot
 
 ## Notebooks
 
-### 1. `BPR_Zero_Cabled_AS.ipynb` — BPR|Zero Analysis
+### 1. `BPR_Zero_Cabled.ipynb` — BPR|Zero Analysis
 
 Downloads scalar and raw data for the cabled **RBR Quartz BPR|Zero** at Barkley Canyon, characterises sensor drift, detects AZA in-situ calibration cycles, and compares against a reference BPR.
 
@@ -71,7 +71,7 @@ Downloads scalar and raw data for the cabled **RBR Quartz BPR|Zero** at Barkley 
 
 ---
 
-### 2. `BPR_Zero_Cabled_AS_getLogFiles.ipynb` — Download Archive Log Files
+### 2. `BPR_Zero_Cabled_getLogFiles.ipynb` — Download Archive Log Files
 
 Downloads raw binary/ASCII log files from the ONC archive for the cabled BPR|Zero at Barkley Canyon (locationCode: **NCBC.P1**). Useful for offline or batch processing of the raw instrument data.
 
